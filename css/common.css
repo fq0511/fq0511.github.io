@@ -1,0 +1,21 @@
+@charset "utf-8";
+.clearfix:before,.header:before{content:"";display:table}
+.clearfix:after,.header:after{content:"";display:table;clear:both}
+html,body,p,dl,dt,dd,table,td,th,input,img,form,div,span,ul,ol,li,h1,h2,h3,h4,h5,h6,select,input{margin:0;padding:0;font-weight:normal}
+html{overflow-y:scroll;margin:0 auto !important;height:100%;min-width:320px;max-width:720px;-webkit-text-size-adjust:none;-webkit-user-select:none}
+body{position:relative;height:100%;background-color:#f5f5f5;color:#333333;font-size:1.16667rem}
+img,iframe{border:none}
+ul,li,ol{list-style:none}
+img{vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+input,button{outline:0;border-radius:0;background:transparent}
+em,b,i,strong,cite,sub,sup,font{font-weight:normal;font-style:normal;font-size:100%}
+a{color:#333333;text-decoration:none;outline:none}
+a,li,input,button,section,span,div{-webkit-tap-highlight-color:rgba(0,0,0,0);-moz-tap-highlight-color:rgba(0,0,0,0);-o-tap-highlight-color:rgba(0,0,0,0);-ms-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0)}
+.wrapper{padding-bottom:0.41667rem;font-size:1.16667rem}
+.footer-site{text-align:center}
+.footer-site .links{margin-top:1.66667rem;margin-bottom:1.66667rem;font-size:1.16667rem}
+.footer-site .links a{padding:0 1.5rem;border-left:1px solid #b6b6b6}
+.footer-site .links a:first-child{border-left:none}
+.footer-site .ex{padding-bottom:1.25rem;color:#666666}
+.feed-loading{height:4.41667rem;line-height:4.41667rem;color:#999999;text-align:center}@media only screen and (max-width: 359px){html{font-size:12px}}@media only screen and (min-width: 360px) and (max-width: 399px){html{font-size:12px}}@media only screen and (min-width: 400px){html{font-size:12px}}
